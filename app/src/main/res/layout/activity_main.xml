@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/pltwo"
+        android:layout_width="191dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="384dp"
+        android:background="#5E2196F3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <EditText
+        android:id="@+id/plone"
+        android:layout_width="191dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="247dp"
+        android:background="#5E2196F3"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="170dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="249dp"
+        android:background="#000000"
+        android:text="Player 1 (X) :"
+        android:textColor="#2196F3"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="170dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="387dp"
+        android:background="#000000"
+        android:text="Player 2 (Y) :"
+        android:textColor="#2196F3"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="62dp"
+        android:background="#000000"
+        android:text="TIC TAC TOE"
+        android:textColor="#2196F3"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+
+    <Button
+        android:id="@+id/Playbtn"
+        android:layout_width="175dp"
+        android:layout_height="106dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="169dp"
+        android:backgroundTint="#2196F3"
+        android:onClick="onClick"
+        android:text="Play"
+        android:textColor="#000000"
+        android:textSize="52sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="582dp" />
+
+</RelativeLayout>
